@@ -1,8 +1,6 @@
-
-
 /* ===== BASIC STYLES ===== */
 body {
-    font-family: Arial, sans-serif;
+    font-family: Helvetica ;
     background-color: white;
     color: #333;
     margin: 0;
@@ -89,9 +87,16 @@ nav ul li a:hover {
   overflow: hidden;
 }
 
+.content-wrapper {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 20px;
+  overflow: hidden;
+}
+
 .hero-content {
   float: left;
-  width: 40%;
+  width: 400px;
   padding-right: 30px;
   margin-left: 10px;
 }
@@ -164,11 +169,12 @@ nav ul li a:hover {
   overflow: hidden;
 }
 
-.about-wrapper::after {
-  content: "";
-  display: block;
-  clear: both;
-}
+
+    .favorite-team {
+      font-weight: bold;
+      color: #b30000;
+    }
+
 
 .about-summary,
 .aboutDetails {
@@ -176,10 +182,13 @@ nav ul li a:hover {
   padding: 0 1%;
   box-sizing: border-box;
   text-align: left;
+  
 }
 
 .about-summary {
   float: left;
+  text-align: center;
+  width: 500px;
 }
 
 .aboutDetails {
@@ -205,33 +214,79 @@ nav ul li a:hover {
 
 /* ===== SKILLS SECTION ===== */
 .skills {
-    background-color: white;
-    padding: 60px 0;
-    text-align: center;
+  background-color: white;
+  padding: 60px 0;
+  text-align: center;
+  width: 1100px;
+  margin: 0 auto; 
+
+}
+
+
+
+.section-title {
+  font-weight: bold;
+  font-size: 28px;
+  margin-bottom: 25px;
 }
 
 .skill {
-    margin: 15px 0;
+  margin: 30px 0;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
 }
 
 .skill-name {
-    font-weight: bold;
+  font-weight: bold;
+  color: #4a6baf;
+  margin-bottom: 20px;
+  font-size: 22px;
+  text-align: center;
+}
+
+.skill-item {
+  margin-bottom: 15px;
+}
+
+.tech-name {
+  font-weight: 600;
+  color: #4a6baf;
+  margin-bottom: 5px;
+  display: block;
+  font-size: 16px;
 }
 
 .skill-bar {
-    width: 80%;
-    height: 10px;
-    background-color: #ddd;
-    margin: 5px auto;
-    border-radius: 5px;
+  width: 100%;
+  height: 12px;
+  background-color: #ddd;
+  border-radius: 6px;
+  overflow: hidden;
 }
 
 .skill-level {
-    height: 10px;
-    background-color: #4a6baf;
-    border-radius: 5px;
-    width: 70%; 
+  height: 12px;
+  background-color: #4a6baf;
+  border-radius: 6px 0 0 6px;
+  width: 70%; /* overridden inline */
+  transition: width 0.6s ease;
 }
+
+.category {
+  background-color: #fff; 
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 400px;
+  margin: 10px; /* spacing between categories */
+  display: inline-block;
+  vertical-align: top; /* optional, aligns cards on top */
+  /* Remove margin-left: auto; and margin-right: auto; */
+}
+
 
 /* ===== PROJECTS SECTION ===== */
 .projects {
@@ -239,20 +294,7 @@ nav ul li a:hover {
     text-align: center;
     overflow: hidden;
     align-self: center;
-      
-
-}
-
-
-
-.project-row {
-    gap: 30px;
-    max-width: 1100px;
-    margin: 0 auto;
-    float: left;
-
-}
-
+        }
 
 .project-card {
     width: 300px;
@@ -377,6 +419,11 @@ nav ul li a:hover {
     padding: 12px;
   }
 
+  .social-link:hover {
+    color: white;
+    transform: translateY(-5px);
+  }
+
 
 .contact button {
     padding: 10px 20px;
@@ -397,4 +444,5 @@ footer {
     text-align: center;
     padding: 20px;
     margin-top: 40px;
+    width: 100%;
 }
