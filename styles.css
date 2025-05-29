@@ -331,10 +331,6 @@ nav ul li a:hover {
 }
 
 .tech-tags {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 8px;
     margin-bottom: 15px;
 }
 
