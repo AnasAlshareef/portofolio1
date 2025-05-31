@@ -1,303 +1,285 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Anas Alshareef - Personal Website</title>
-        <link rel="stylesheet" href="styles.css">
-        <!-- Font Awesome for icons (optional) -->
-        <link rel="stylesheet"
-            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    </head>
-    <body>
+<html lang="ar" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>أنس الشريف - الموقع الشخصي</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="logo">
+          <h1>بورتفوليو</h1>
+        </div>
+        <nav class="navbar">
+          <ul>
+            <li><a href="#home">الرئيسية</a></li>
+            <li><a href="#about">من أنا</a></li>
+            <li><a href="#skills">المهارات</a></li>
+            <li><a href="#projects">المشاريع</a></li>
+            <li><a href="#contact">اتصل بي</a></li>
+            <li><a href="Anas_AlShareef_-_.pdf" download>السيرة الذاتية</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
 
-        <!-- ===== HEADER ===== -->
-        <header>
-            <div class="container">
-                <div class="logo">
-                    <h1>Potofolio</h1>
-                </div>
-                <nav class="navbar">
-                    <ul>
-                        <li><a href="#home">Home</a></li>
-                        <li><a href="#about">About</a></li>
-                        <li><a href="#skills">Skills</a></li>
-                        <li><a href="#projects">Projects</a></li>
-                        <li><a href="#contact">Contact</a></li>
-                        <li><a href="Anas_AlShareef_-_.pdf" download>My
-                                CV</a></li>
-                    </ul>
-                </nav>
+    <section id="home" class="hero">
+      <div class="content-wrapper">
+        <div class="hero-content">
+          <h1>مرحباً، أنا <span class="highlight">أنس الشريف</span></h1>
+          <h2>مهندس برمجيات ومطور تطبيقات جوال</h2>
+          <p>أصمم تطبيقات جوال جميلة وعملية تساعد الشركات على النمو.</p>
+          <div class="buttons">
+            <a href="#projects" class="ViewMywork">شاهد أعمالي</a>
+            <a href="#contact" class="Contact">تواصل معي</a>
+          </div>
+        </div>
+        <div class="hero-image">
+          <img
+            src="Anas_Alshareef.jpeg"
+            alt="أنس الشريف"
+            class="profile-image"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="about">
+      <div class="container">
+        <h2 class="section-title">من أنا</h2>
+        <div class="section-divider"></div>
+
+        <div class="about-wrapper">
+          <div class="about-summary">
+            أنا طالب في هندسة البرمجيات ولدي خبرة عملية كمطور تطبيقات جوال، أعمل
+            على إنشاء تطبيقات فعالة وسهلة الاستخدام لكل من منصتي أندرويد و iOS.
+            أتعلم بسرعة، وأحب لتعزيز مهاراتي في التطوير. شغوف بحل المشكلات
+            والبرمجة، وأستمتع بتحويل الأفكار المعقدة إلى حلول عملية. بعيداً عن
+            البرمجة، أنا من عشاق كرة القدم وفريقي المفضل هو
+            <span class="favorite-team">إي سي ميلان</span> الذي يلهمني بروح
+            الفريق والتميز داخل وخارج المجال.
+          </div>
+          <div class="aboutDetails">
+            <div class="card">
+              <h3 class="cardtitle">التعليم</h3>
+              <p>بكالوريوس في هندسة الحاسوب</p>
+              <p>كلية التقنية | 2021 - 2026</p>
             </div>
-        </header>
+            <div class="card">
+              <h3 class="cardtitle">الخبرة</h3>
+              <p>مطور تطبيقات جوال</p>
+              <p>StreamLine Technology | 2024 - حتى الآن</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-        <!-- ===== HERO SECTION ===== -->
-        <section id="home" class="hero">
-            <div class="content-wrapper">
-                <div class="hero-content">
-                    <h1>Hello, I'm <span class="highlight">Anas
-                            Alshareef</span></h1>
-                    <h2>Software Engineer & Mobile App Developer</h2>
-                    <p>I create beautiful and functional mobile apps that help
-                        businesses grow.</p>
-                    <div class="buttons">
-                        <a href="#projects" class="ViewMywork ">View My Work</a>
-                        <a href="#contact" class="Contact">Contact Me</a>
-                    </div>
-                </div>
-                <div class="hero-image">
-                    <img
-                        src="Anas_Alshareef.jpeg"
-                        alt="Anas Alshareef" class="profile-image">
-                </div>
-            </section>
+    <section id="skills" class="skills">
+      <div class="container">
+        <h2 class="section-title">مهاراتي</h2>
+        <div class="section-divider"></div>
 
-            <!-- ===== ABOUT SECTION ===== -->
-            <section id="about" class="about">
-                <div class="container">
-                    <h2 class="section-title">About Me</h2>
-                    <div class="section-divider"></div>
+        <div class="grid">
+          <div class="category">
+            <p class="skill-name">تطوير تطبيقات الجوال</p>
+            <div class="skill-item">
+              <span class="tech-name">Flutter</span>
+              <div class="skill-bar">
+                <div class="skill-level" style="width: 90%"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <span class="tech-name">Dart</span>
+              <div class="skill-bar">
+                <div class="skill-level" style="width: 85%"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <span class="tech-name">Firebase</span>
+              <div class="skill-bar">
+                <div class="skill-level" style="width: 75%"></div>
+              </div>
+            </div>
+          </div>
 
-                    <div class="about-wrapper">
-                        <div class="about-summary">
-                            I am a dedicated Computer Engineering student with
-                            hands-on experience as a mobile app developer,
-                            specializing in building efficient and user-friendly
-                            applications for both Android and iOS platforms. I
-                            am a fast learner, always eager to explore the
-                            latest technologies such as Flutter, to enhance my
-                            development skills. Passionate
-                            about problem-solving and coding, I enjoy turning
-                            complex ideas into practical solutions. Outside of
-                            programming, I am a huge football fan, and my
-                            favorite team is <span class="favorite-team">AC
-                                Milan</span>, whose spirit of teamwork and
-                            excellence inspires me both on and off the field.
-                        </div>
-                        <div class="aboutDetails">
-                            <div class="card">
-                                <h3 class="cardtitle">Education</h3>
-                                <p>Bachelor in Computer Engineering</p>
-                                <p>College of Technology | 2021 - 2026</p>
-                            </div>
-                            <div class="card">
-                                <h3 class="cardtitle">Experience</h3>
-                                <p>Mobile App Developer</p>
-                                <p>StreamLine Technology | 2024 - Present</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
+          <div class="category">
+            <p class="skill-name">أدوات التصميم</p>
+            <div class="skill-item">
+              <span class="tech-name">Figma</span>
+              <div class="skill-bar">
+                <div class="skill-level" style="width: 80%"></div>
+              </div>
+            </div>
+          </div>
 
-            <!-- ===== SKILLS SECTION ===== -->
-            <section id="skills" class="skills">
-                <div class="container">
-                    <h2 class="section-title">My Skills</h2>
-                    <div class="section-divider"></div>
+          <div class="category">
+            <p class="skill-name">تطوير الخلفية</p>
+            <div class="skill-item">
+              <span class="tech-name">Laravel</span>
+              <div class="skill-bar">
+                <div class="skill-level" style="width: 60%"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <span class="tech-name">Python</span>
+              <div class="skill-bar">
+                <div class="skill-level" style="width: 50%"></div>
+              </div>
+            </div>
+          </div>
 
-                    <div class="grid">
-                        <div class="category">
-                            <p class="skill-name">Mobile App Development</p>
-                            <div class="skill-item">
-                                <span class="tech-name">Flutter</span>
-                                <div class="skill-bar">
-                                    <div class="skill-level"
-                                        style="width: 90%;"></div>
-                                </div>
-                            </div>
-                            <div class="skill-item">
-                                <span class="tech-name">Dart</span>
-                                <div class="skill-bar">
-                                    <div class="skill-level"
-                                        style="width: 85%;"></div>
-                                </div>
-                            </div>
-                            <div class="skill-item">
-                                <span class="tech-name">Firebase</span>
-                                <div class="skill-bar">
-                                    <div class="skill-level"
-                                        style="width: 75%;"></div>
-                                </div>
-                            </div>
-                        </div>
+          <div class="category">
+            <p class="skill-name">إدارة قواعد البيانات</p>
+            <div class="skill-item">
+              <span class="tech-name">SQL</span>
+              <div class="skill-bar">
+                <div class="skill-level" style="width: 55%"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <span class="tech-name">MySQL</span>
+              <div class="skill-bar">
+                <div class="skill-level" style="width: 60%"></div>
+              </div>
+            </div>
+          </div>
+          <div class="category">
+            <p class="skill-name">المهارات الشخصية</p>
+            <ul class="soft-skills">
+              <li>حل المشكلات</li>
+              <li>مهارات التواصل</li>
+              <li>إدارة الوقت</li>
+              <li>التعلم السريع</li>
+              <li>القيادة</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
 
-                        <div class="category">
-                            <p class="skill-name">Design Tools</p>
-                            <div class="skill-item">
-                                <span class="tech-name">Figma</span>
-                                <div class="skill-bar">
-                                    <div class="skill-level"
-                                        style="width: 80%;"></div>
-                                </div>
-                            </div>
-                        </div>
+    <section id="projects" class="projects">
+      <div class="container">
+        <h2 class="section-title">مشاريعي</h2>
+        <div class="section-divider"></div>
+        <div class="project-grid">
+          <div class="project-card">
+            <div class="project-icon">🎬</div>
+            <h3>Anas Movies App</h3>
+            <p>
+              تطبيق Flutter يعرض مجموعة من الأفلام المختارة بواجهة استخدام حديثة
+              وجميلة.
+            </p>
+            <div class="tech-tags">
+              <span>Flutter</span><span>Dart</span><span>API</span>
+            </div>
+            <a
+              href="https://github.com/AnasAlshareef/anas_movies"
+              target="_blank"
+              >عرض المشروع</a
+            >
+          </div>
 
-                        <div class="category">
-                            <p class="skill-name">Backend Development</p>
-                            <div class="skill-item">
-                                <span class="tech-name">Laravel</span>
-                                <div class="skill-bar">
-                                    <div class="skill-level"
-                                        style="width: 60%;"></div>
-                                </div>
-                            </div>
-                            <div class="skill-item">
-                                <span class="tech-name">Python</span>
-                                <div class="skill-bar">
-                                    <div class="skill-level"
-                                        style="width: 50%;"></div>
-                                </div>
-                            </div>
-                        </div>
+          <div class="project-card">
+            <div class="project-icon">📝</div>
+            <h3>Notes App</h3>
+            <p>تطبيق لتسجيل وتحرير وإدارة ملاحظاتك بكل سهولة.</p>
+            <div class="tech-tags">
+              <span>Flutter</span><span>Dart</span><span>Local Storage</span>
+            </div>
+            <a href="https://github.com/AnasAlshareef/Notes_app" target="_blank"
+              >عرض المشروع</a
+            >
+          </div>
 
-                        <div class="category">
-                            <p class="skill-name">Database Management</p>
-                            <div class="skill-item">
-                                <span class="tech-name">SQL</span>
-                                <div class="skill-bar">
-                                    <div class="skill-level"
-                                        style="width: 55%;"></div>
-                                </div>
-                            </div>
-                            <div class="skill-item">
-                                <span class="tech-name">MySQL</span>
-                                <div class="skill-bar">
-                                    <div class="skill-level"
-                                        style="width: 60%;"></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+          <div class="project-card">
+            <div class="project-icon">👽</div>
+            <h3>Rick and Morty Characters</h3>
+            <p>تصفح قائمة شخصيات Rick and Morty مع معلومات وصور مفصلة.</p>
+            <div class="tech-tags">
+              <span>Flutter</span><span>Dart</span><span>REST API</span>
+            </div>
+            <a
+              href="https://github.com/AnasAlshareef/rick_and_morty"
+              target="_blank"
+              >عرض المشروع</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
 
-                </div>
-            </section>
+    <section id="contact" class="contact">
+      <div class="container">
+        <h2 class="section-title">تواصل معي</h2>
+        <div class="section-divider"></div>
+        <div class="contact-info">
+          <div class="card-info">
+            <i class="fas fa-envelope" style="color: #4a6baf"></i>
+            Anasshf8@gmail.com
+          </div>
+          <div class="card-info">
+            <i class="fas fa-phone" style="color: #4a6baf"></i> +218 91 0727 051
+          </div>
+          <div class="card-info">
+            <i class="fas fa-map-marker-alt" style="color: #4a6baf"></i> طرابلس،
+            ليبيا
+          </div>
 
-            <!-- ===== PROJECTS SECTION ===== -->
-            <section id="projects" class="projects">
-                <div class="container">
-                    <h2 class="section-title">My Projects</h2>
-                    <div class="section-divider"></div>
-                    <div class="project-grid">
-                        <div class="project-card">
-                            <div class="project-icon">🎬</div>
-                            <h3>Anas Movies App</h3>
-                            <p>A Flutter app that displays a list of curated
-                                movies with a clean, modern UI.</p>
-                            <div class="tech-tags">
-                                <span>Flutter</span>
-                                <span>Dart</span>
-                                <span>API</span>
-                            </div>
-                            <a
-                                href="https://github.com/AnasAlshareef/anas_movies"
-                                target="_blank">View Project</a>
-                        </div>
+          <div class="social-links">
+            <div class="social-link">
+              <a href="https://www.linkedin.com/in/anas-alshareef-984a94305/"
+                ><i class="fab fa-linkedin" style="color: #4a6baf"></i
+              ></a>
+            </div>
+            <div class="social-link">
+              <a href="https://github.com/AnasAlshareef"
+                ><i class="fab fa-github" style="color: #4a6baf"></i
+              ></a>
+            </div>
+            <div class="social-link">
+              <a href="#"
+                ><i class="fab fa-twitter" style="color: #4a6baf"></i
+              ></a>
+            </div>
+            <div class="social-link">
+              <a href="#"
+                ><i class="fab fa-instagram" style="color: #4a6baf"></i
+              ></a>
+            </div>
+          </div>
+        </div>
 
-                        <!-- Project 2 -->
-                        <div class="project-card">
-                            <div class="project-icon">📝</div>
-                            <h3>Notes App</h3>
-                            <p>A notes app that lets you capture, edit, and
-                                manage your thoughts effortlessly.</p>
-                            <div class="tech-tags">
-                                <span>Flutter</span>
-                                <span>Dart</span>
-                                <span>Local Storage</span>
-                            </div>
-                            <a
-                                href="https://github.com/AnasAlshareef/Notes_app"
-                                target="_blank">View Project</a>
-                        </div>
+        <div class="contact-form-container">
+          <form class="contact-form">
+            <div class="form-group">
+              <label for="name">الاسم</label>
+              <input type="text" id="name" required />
+            </div>
+            <div class="form-group">
+              <label for="email">البريد الإلكتروني</label>
+              <input type="email" id="email" required />
+            </div>
+            <div class="form-group">
+              <label for="message">رسالتك</label>
+              <textarea id="message" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="btn">إرسال الرسالة</button>
+          </form>
+        </div>
+      </div>
+    </section>
 
-                        <!-- Project 3 -->
-                        <div class="project-card">
-                            <div class="project-icon">👽</div>
-                            <h3>Rick and Morty Characters</h3>
-                            <p>Browse a catalog of Rick and Morty characters
-                                with detailed info and visuals.</p>
-                            <div class="tech-tags">
-                                <span>Flutter</span>
-                                <span>Dart</span>
-                                <span>REST API</span>
-                            </div>
-                            <a
-                                href="https://github.com/AnasAlshareef/rick_and_morty"
-                                target="_blank">View Project</a>
-                        </div>
-
-                    </div>
-                </div>
-            </section>
-            <!-- ===== CONTACT SECTION ===== -->
-            <section id="contact" class="contact">
-                <div class="container">
-                    <h2 class="section-title">Get In Touch</h2>
-                    <div class="section-divider"></div>
-                    <div class="contact-info">
-                        <div class="card-info"><i class=" fas fa-envelope  "
-                                style="color: #4a6baf"></i>
-                            Anasshf8@gmail.com</div>
-                        <div class="card-info"><i class=" fas fa-phone "
-                                style="color: #4a6baf"></i> +218
-                            91 0727 051</div>
-                        <div class="card-info"><i
-                                class=" fas fa-map-marker-alt "
-                                style="color: #4a6baf"></i> Tripoli,
-                            Libya</div>
-
-                        <div class="social-links">
-                            <div class="social-link">
-                                <a
-                                    href="https://www.linkedin.com/in/anas-alshareef-984a94305/"><i
-                                        class="fab fa-linkedin"
-                                        style=" color: #4a6baf;"></i></a>
-                            </div>
-                            <div class="social-link">
-                                <a
-                                    href="https://github.com/AnasAlshareef"><i
-                                        class="fab fa-github"
-                                        style=" color: #4a6baf;"></i></a>
-                            </div>
-                            <div class="social-link">
-                                <a href="#"><i class="fab fa-twitter"
-                                        style=" color: #4a6baf;"></i></a>
-                            </div>
-                            <div class="social-link">
-                                <a href="#"><i class="fab fa-instagram"
-                                        style=" color: #4a6baf;"></i></a>
-                            </div>
-                        </div>
-
-                    </div>
-                    <div class="contact-form-container">
-                        <form class="contact-form">
-                            <div class="form-group">
-                                <label for="name">Name</label>
-                                <input type="text" id="name" required>
-                            </div>
-                            <div class="form-group">
-                                <label for="email">Email</label>
-                                <input type="email" id="email" required>
-                            </div>
-                            <div class="form-group">
-                                <label for="message">Message</label>
-                                <textarea id="message" rows="5"
-                                    required></textarea>
-                            </div>
-                            <button type="submit" class="btn">Send
-                                Message</button>
-                        </form>
-                    </div>
-                </section>
-
-                <!-- ===== FOOTER ===== -->
-                <footer>
-                    <div class="container">
-                        <p>&copy; 2025 Anas Alshareef. All Rights
-                            Reserved.</p>
-                    </div>
-                </footer>
-
-            </body>
-        </html>
+    <footer>
+      <div class="container">
+        <p>&copy; 2025 أنس الشريف. جميع الحقوق محفوظة.</p>
+      </div>
+    </footer>
+  </body>
+</html>
