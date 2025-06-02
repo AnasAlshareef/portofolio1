@@ -72,6 +72,10 @@ nav ul li a {
 nav ul li a:hover {
   color: #4a6baf;
 }
+nav ul li a.active {
+  color: #4a6baf;
+  font-weight: bold;
+}
 
 /* ===== Information SECTION ===== */
 .hero {
@@ -111,16 +115,21 @@ nav ul li a:hover {
 
 .hero-image {
   float: right;
-  width: 50%;
-  max-width: 100%;
-  height: auto;
+  width: 400px;
   text-align: center;
-  border-radius: 100px;
+  border-radius: 500px;
+}
+
+.profile-image:hover {
+  color: #4a6baf;
+  border-color: #4a56e2;
+  box-shadow: #4a6baf 2px 2px 10px;
+  transition: all 0.3s ease;
+  transform: rotate(360deg); /* Rotates the image 10 degrees */
 }
 
 .profile-image {
   width: 400px;
-  height: auto;
   border-radius: 500px;
 }
 
@@ -187,6 +196,11 @@ nav ul li a:hover {
   text-align: center;
 }
 
+.card:hover {
+  box-shadow: #4a6baf 0 2px 8px;
+  transform: translateY(-5px);
+  color: #4a6baf;
+}
 .card {
   background-color: white;
   padding: 10px;
@@ -269,8 +283,10 @@ nav ul li a:hover {
 }
 
 .category:hover {
-  color: white;
   transform: translateY(-10px);
+  color: #4a6baf;
+  border-color: #4a56e2;
+  box-shadow: #4a6baf 0 2px 8px;
 }
 .soft-skills {
   list-style-type: none;
@@ -309,7 +325,10 @@ nav ul li a:hover {
 }
 
 .project-card:hover {
-  transform: translateY(-5px);
+  transform: translateY(-10px);
+  color: #4a6baf;
+  border-color: #4a56e2;
+  box-shadow: #4a6baf 0 2px 8px;
 }
 
 .project-icon {
@@ -391,6 +410,11 @@ nav ul li a:hover {
   border-radius: 16px;
   text-align: left;
 }
+
+.card-info:hover {
+  box-shadow: #4a6baf 0 2px 8px;
+  transform: translateY(-5px);
+}
 .contact input,
 .contact textarea {
   width: 100%;
@@ -413,8 +437,10 @@ nav ul li a:hover {
 }
 
 .social-link:hover {
-  color: white;
   transform: translateY(-5px);
+  color: #4a6baf;
+  border-color: #4a56e2;
+  box-shadow: #4a6baf 0 2px 8px;
 }
 
 .contact button {
